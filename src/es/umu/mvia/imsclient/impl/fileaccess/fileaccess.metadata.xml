@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bundle>
+  <component class="es.umu.mvia.imsclient.impl.fileaccess.FileAccessServiceImpl">
+    <provides service="es.umu.mvia.imsclient.service.fileaccess.FileAccessService"/>
+  </component>
+</bundle>

@@ -1,0 +1,20 @@
+Bundle-Activator: es.umu.mvia.imsclient.impl.media.MediaActivator
+Bundle-Name: Media Service Implementation
+Bundle-Description: A bundle that offers Media capture and presentation capabilities.
+Bundle-Vendor: sip-communicator.org
+Bundle-Version: 0.0.1
+Import-Package: org.osgi.framework,
+ es.umu.mvia.imsclient.service.configuration,
+ es.umu.mvia.imsclient.service.configuration.event,
+ es.umu.mvia.imsclient.service.protocol,
+ es.umu.mvia.imsclient.service.protocol.event,
+ es.umu.mvia.imsclient.util,
+ es.umu.mvia.imsclient.service.netaddr,
+ es.umu.mvia.imsclient.service.fileaccess,
+ javax.sound,
+ javax.sound.sampled
+Export-Package: es.umu.mvia.imsclient.service.media,
+ es.umu.mvia.imsclient.service.media.event,
+ es.umu.mvia.imsclient.impl.media,
+ es.umu.mvia.imsclient.impl.media.configuration,
+Metadata-Location: /net/java/sip/communicator/impl/media/media.metadata.xml

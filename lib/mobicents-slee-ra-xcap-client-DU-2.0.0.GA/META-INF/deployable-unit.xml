@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deployable-unit PUBLIC "-//Sun Microsystems, Inc.//DTD JAIN SLEE Deployable Unit 1.1//EN" "http://java.sun.com/dtd/slee-deployable-unit_1_1.dtd">
+<deployable-unit>
+	<jar>mobicents-slee-ra-xcap-client-events-2.0.0.GA.jar</jar>
+	<jar>mobicents-slee-ra-xcap-client-ratype-2.0.0.GA.jar</jar>
+	<jar>mobicents-slee-ra-xcap-client-ra-2.0.0.GA.jar</jar>
+	<jar>mobicents-slee-ra-xcap-client-library-2.0.0.GA.jar</jar>
+</deployable-unit>
